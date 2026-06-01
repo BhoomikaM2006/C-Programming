@@ -1,9 +1,23 @@
-#include<stdio.h>
-void main(){
-  int temp,n;
-  int rev,sum=0;
-  while(n!=0)
-  {
-    printf("It is a palindrome);
-      }
-}    
+// Palindrome Number Program 
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+    int n, rev = 0, temp;
+
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    temp = n;
+
+    while (temp) {
+        rev = rev * 10 + temp % 10;
+        temp /= 10;
+    }
+
+    if (n == rev)
+        printf("Palindrome");
+    else
+        printf("Not Palindrome");
+
+    return 0;
+}
