@@ -1,4 +1,4 @@
-
+//commenttt
 #include <stdio.h>
 int main() {
     int n, rev = 0, temp;
