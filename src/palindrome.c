@@ -1,6 +1,5 @@
-// Palindrome Number Program 
+
 #include <stdio.h>
-#include <stdlib.h>
 int main() {
     int n, rev = 0, temp;
 
